@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D878C2991B6E82470059E165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878C2981B6E82470059E165 /* AppDelegate.swift */; };
+		D878C29B1B6E82470059E165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878C29A1B6E82470059E165 /* ViewController.swift */; };
+		D878C29E1B6E82470059E165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D878C29C1B6E82470059E165 /* Main.storyboard */; };
+		D878C2A01B6E82470059E165 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D878C29F1B6E82470059E165 /* Images.xcassets */; };
+		D878C2A31B6E82470059E165 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D878C2A11B6E82470059E165 /* LaunchScreen.xib */; };
+		D878C2AF1B6E82470059E165 /* iotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878C2AE1B6E82470059E165 /* iotterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D878C2A91B6E82470059E165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D878C28B1B6E82470059E165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D878C2921B6E82470059E165;
+			remoteInfo = iotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D878C2931B6E82470059E165 /* iotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D878C2971B6E82470059E165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D878C2981B6E82470059E165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D878C29A1B6E82470059E165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D878C29D1B6E82470059E165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D878C29F1B6E82470059E165 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D878C2A21B6E82470059E165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D878C2A81B6E82470059E165 /* iotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D878C2AD1B6E82470059E165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D878C2AE1B6E82470059E165 /* iotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iotterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D878C2901B6E82470059E165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D878C2A51B6E82470059E165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D878C28A1B6E82470059E165 = {
+			isa = PBXGroup;
+			children = (
+				D878C2951B6E82470059E165 /* iotter */,
+				D878C2AB1B6E82470059E165 /* iotterTests */,
+				D878C2941B6E82470059E165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D878C2941B6E82470059E165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D878C2931B6E82470059E165 /* iotter.app */,
+				D878C2A81B6E82470059E165 /* iotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D878C2951B6E82470059E165 /* iotter */ = {
+			isa = PBXGroup;
+			children = (
+				D878C2981B6E82470059E165 /* AppDelegate.swift */,
+				D878C29A1B6E82470059E165 /* ViewController.swift */,
+				D878C29C1B6E82470059E165 /* Main.storyboard */,
+				D878C29F1B6E82470059E165 /* Images.xcassets */,
+				D878C2A11B6E82470059E165 /* LaunchScreen.xib */,
+				D878C2961B6E82470059E165 /* Supporting Files */,
+			);
+			path = iotter;
+			sourceTree = "<group>";
+		};
+		D878C2961B6E82470059E165 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D878C2971B6E82470059E165 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D878C2AB1B6E82470059E165 /* iotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D878C2AE1B6E82470059E165 /* iotterTests.swift */,
+				D878C2AC1B6E82470059E165 /* Supporting Files */,
+			);
+			path = iotterTests;
+			sourceTree = "<group>";
+		};
+		D878C2AC1B6E82470059E165 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D878C2AD1B6E82470059E165 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D878C2921B6E82470059E165 /* iotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D878C2B21B6E82470059E165 /* Build configuration list for PBXNativeTarget "iotter" */;
+			buildPhases = (
+				D878C28F1B6E82470059E165 /* Sources */,
+				D878C2901B6E82470059E165 /* Frameworks */,
+				D878C2911B6E82470059E165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iotter;
+			productName = iotter;
+			productReference = D878C2931B6E82470059E165 /* iotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D878C2A71B6E82470059E165 /* iotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D878C2B51B6E82470059E165 /* Build configuration list for PBXNativeTarget "iotterTests" */;
+			buildPhases = (
+				D878C2A41B6E82470059E165 /* Sources */,
+				D878C2A51B6E82470059E165 /* Frameworks */,
+				D878C2A61B6E82470059E165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D878C2AA1B6E82470059E165 /* PBXTargetDependency */,
+			);
+			name = iotterTests;
+			productName = iotterTests;
+			productReference = D878C2A81B6E82470059E165 /* iotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D878C28B1B6E82470059E165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Pjuu;
+				TargetAttributes = {
+					D878C2921B6E82470059E165 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D878C2A71B6E82470059E165 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D878C2921B6E82470059E165;
+					};
+				};
+			};
+			buildConfigurationList = D878C28E1B6E82470059E165 /* Build configuration list for PBXProject "iotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D878C28A1B6E82470059E165;
+			productRefGroup = D878C2941B6E82470059E165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D878C2921B6E82470059E165 /* iotter */,
+				D878C2A71B6E82470059E165 /* iotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D878C2911B6E82470059E165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D878C29E1B6E82470059E165 /* Main.storyboard in Resources */,
+				D878C2A31B6E82470059E165 /* LaunchScreen.xib in Resources */,
+				D878C2A01B6E82470059E165 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D878C2A61B6E82470059E165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D878C28F1B6E82470059E165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D878C29B1B6E82470059E165 /* ViewController.swift in Sources */,
+				D878C2991B6E82470059E165 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D878C2A41B6E82470059E165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D878C2AF1B6E82470059E165 /* iotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D878C2AA1B6E82470059E165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D878C2921B6E82470059E165 /* iotter */;
+			targetProxy = D878C2A91B6E82470059E165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D878C29C1B6E82470059E165 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D878C29D1B6E82470059E165 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D878C2A11B6E82470059E165 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D878C2A21B6E82470059E165 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D878C2B01B6E82470059E165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D878C2B11B6E82470059E165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D878C2B31B6E82470059E165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D878C2B41B6E82470059E165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D878C2B61B6E82470059E165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotter.app/iotter";
+			};
+			name = Debug;
+		};
+		D878C2B71B6E82470059E165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotter.app/iotter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D878C28E1B6E82470059E165 /* Build configuration list for PBXProject "iotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D878C2B01B6E82470059E165 /* Debug */,
+				D878C2B11B6E82470059E165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D878C2B21B6E82470059E165 /* Build configuration list for PBXNativeTarget "iotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D878C2B31B6E82470059E165 /* Debug */,
+				D878C2B41B6E82470059E165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D878C2B51B6E82470059E165 /* Build configuration list for PBXNativeTarget "iotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D878C2B61B6E82470059E165 /* Debug */,
+				D878C2B71B6E82470059E165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D878C28B1B6E82470059E165 /* Project object */;
+}
