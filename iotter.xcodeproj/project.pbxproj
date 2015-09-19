@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D878C2931B6E82470059E165 /* iotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D878C2931B6E82470059E165 /* Pjuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pjuu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D878C2971B6E82470059E165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D878C2981B6E82470059E165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D878C29A1B6E82470059E165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		D878C2941B6E82470059E165 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D878C2931B6E82470059E165 /* iotter.app */,
+				D878C2931B6E82470059E165 /* Pjuu.app */,
 				D878C2A81B6E82470059E165 /* iotterTests.xctest */,
 			);
 			name = Products;
@@ -129,7 +129,7 @@
 			);
 			name = iotter;
 			productName = iotter;
-			productReference = D878C2931B6E82470059E165 /* iotter.app */;
+			productReference = D878C2931B6E82470059E165 /* Pjuu.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D878C2A71B6E82470059E165 /* iotterTests */ = {
@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					D878C2921B6E82470059E165 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = L3AY7536RB;
 					};
 					D878C2A71B6E82470059E165 = {
 						CreatedOnToolsVersion = 6.4;
@@ -342,9 +343,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pjuu;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -352,9 +357,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pjuu;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -411,6 +419,7 @@
 				D878C2B41B6E82470059E165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D878C2B51B6E82470059E165 /* Build configuration list for PBXNativeTarget "iotterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				D878C2B71B6E82470059E165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

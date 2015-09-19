@@ -26,10 +26,21 @@ class ViewController: UIViewController, UIWebViewDelegate {
         webView.delegate = self
         let request = NSURLRequest(URL: url!)
         
+        // Set the User Agent
+        let releaseVersion = NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"] as! String
+        
+        let buildVersion = NSBundle.mainBundle().infoDictionary?["CFBundleVersion"] as! String
+        
+        NSUserDefaults.standardUserDefaults().registerDefaults(
+            ["UserAgent": "iOtter \(releaseVersion)-\(buildVersion)"])
+        
+        println("iOtter \(releaseVersion)-\(buildVersion)")
+        
         webView.loadRequest(request)
     }
 
-    func webView(WebViewNews: UIWebView, shouldStartLoadWithRequest request: NSURLRequest,      navigationType: UIWebViewNavigationType) -> Bool {
+    func webView(WebViewNews: UIWebView, shouldStartLoadWithRequest request: NSURLRequest,
+                 navigationType: UIWebViewNavigationType) -> Bool {
         
         let requestURL = request.URL!
 
