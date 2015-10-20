@@ -21,7 +21,7 @@ This was build with XCode. This is the same repository that the iOS app itself i
 
 ### Contributing
 
-We are open to all pull requests. Please not that we are not Android developers, this is as simple an app as it could possibly be. If you would like to help us make tweaks please do, it would be really appreciated.
+We are open to all pull requests. Please not that we are not iOS developers, this is as simple an app as it could possibly be. If you would like to help us make tweaks please do, it would be really appreciated.
 
 ### Security
 
