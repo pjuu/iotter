@@ -17,7 +17,7 @@ This is a very simple iOS application which embeds a WebView. It simply shows th
 
 In the future this will be expanded to show notifications that you have new alerts on the site.
 
-This was build with XCode. This is the same repository that the Android app itself is built from.
+This was build with XCode. This is the same repository that the iOS app itself is built from.
 
 ### Contributing
 
