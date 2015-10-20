@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         NSUserDefaults.standardUserDefaults().registerDefaults(
             ["UserAgent": "iOtter \(releaseVersion)-\(buildVersion)"])
         
-        println("iOtter \(releaseVersion)-\(buildVersion)")
+        print("iOtter \(releaseVersion)-\(buildVersion)")
         
         webView.loadRequest(request)
     }
