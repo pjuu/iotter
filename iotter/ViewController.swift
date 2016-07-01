@@ -74,7 +74,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
         self.view.addSubview(button)
         
         if requestURL.host == hostName {
-            if requestURL.path!.rangeOfString(".png") != nil {
+            if requestURL.path!.rangeOfString(".png") != nil ||
+                    requestURL.path!.rangeOfString(".gif") != nil ||
+                    requestURL.path!.rangeOfString(".jpg") != nil {
                 button.hidden = false
             }
             return true
